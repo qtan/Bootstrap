@@ -109,6 +109,32 @@
                 <a role="button" class="btn btn-warning" data-toggle="tooltip" title="Or Call us at +780 1234567" data-placement="bottom" href="#reserve_table">Reserve Table</a>
                 <!-- or use popover function triggered/hide by click-->
             </div>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Try Modal</button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                            <h4 class="modal-title text-info" id="myModalLabel"> Title</h4>
+                        </div>
+                        <div class="modal-body" style="solid black">
+                            <p style="color:red">Body</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                提交更改
+                            </button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal -->
+            </div>
+
         </div>
     </header>
 
@@ -318,7 +344,9 @@
             $("[data-toggle='tooltip']").tooltip();
         });
     </script>
-
+    <script>
+        $('#identifier').modal(options)
+    </script>
 </body>
 
 
