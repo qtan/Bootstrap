@@ -103,3 +103,9 @@ body {
 .text-bbblue {
     color: #B0E2FF
 }
+
+#carouselButtons {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
