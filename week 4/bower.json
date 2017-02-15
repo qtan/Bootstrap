@@ -1,0 +1,25 @@
+{
+  "name": "conFusion",
+  "homepage": "https://github.com/qtan/Bootstrap",
+  "authors": [
+    "Qi"
+  ],
+  "description": "Website for an awesome restaurant",
+  "main": "jquery.html",
+  "keywords": [
+    "conFusion",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
